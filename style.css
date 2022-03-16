@@ -125,8 +125,8 @@ a.logo {
   display: block;
   font-family: var(--font-default);
   font-size: calc(1vw + 14px);
-  font-weight: 700;
-  text-transform: uppercase;
+  font-weight: 100;
+  font-variant-caps: small-caps;
   letter-spacing: 4px;
   line-height: 60px;
   flex: 1;
