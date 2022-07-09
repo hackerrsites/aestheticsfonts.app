@@ -1,1 +1,21 @@
-{"scope":"/","start_url":"/","display":"standalone","icons":[{"sizes":"192x192","type":"image/png","src":"./assets/logo192x192.webp"},{"sizes":"512x512","type":"image/png","src":"./assets/logo512x512.webp"}],"name":"AestheticsFonts.com","short_name":"Aesthetic Fonts","theme_color":"#3157a0","background_color":"#1c1b29"}
+{
+  "scope": "/",
+  "start_url": "/",
+  "display": "standalone",
+  "icons": [
+    {
+      "sizes": "192x192",
+      "type": "image/png",
+      "src": "./assets/logo192x192.webp"
+    },
+    {
+      "sizes": "512x512",
+      "type": "image/png",
+      "src": "./assets/logo512x512.webp"
+    }
+  ],
+  "name": "AestheticsFonts.com",
+  "short_name": "Aesthetic Fonts",
+  "theme_color": "#3157a0",
+  "background_color": "#1c1b29"
+}
