@@ -557,7 +557,8 @@ footer a:hover {
   line-height: 3em;
   text-transform: uppercase;
 }
-.loadmore {
+.loadmore,
+.pagebtn {
   display: block;
   max-width: -webkit-max-content;
   max-width: -moz-max-content;
@@ -581,12 +582,14 @@ footer a:hover {
   -o-transition: 0.2s cubic-bezier(0.86, 0, 0.07, 1) ease-in-out;
   transition: 0.2s cubic-bezier(0.86, 0, 0.07, 1) ease-in-out;
 }
-.loadmore:hover {
+.loadmore:hover,
+.pagebtn:hover {
   background: var(--secondary-color);
   -webkit-box-shadow: 5px 5px 0 0 #00000042;
   box-shadow: 5px 5px 0 0 #00000042;
 }
-.loadmore:active {
+.loadmore:active,
+.pagebtn:active {
   -webkit-transform: translate(5px, 5px);
   -ms-transform: translate(5px, 5px);
   transform: translate(5px, 5px);
