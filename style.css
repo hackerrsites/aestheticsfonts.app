@@ -125,12 +125,10 @@ header {
 a.logo {
   color: #fff;
   display: block;
-  font-family: var(--font-default);
   font-size: calc(1vw + 14px);
-  font-weight: 100;
-  font-variant-caps: small-caps;
-  letter-spacing: 4px;
-  line-height: 60px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 70px;
   flex: 1;
 }
 main {
@@ -157,9 +155,7 @@ h1 {
   color: #222;
 }
 h2 {
-  font-size: calc(0.8vw + 25px);
-  font-weight: 700;
-  font-variant-caps: all-small-caps;
+  font-size: calc(0.8vw + 15px);
   color: #444;
 }
 h3 {
@@ -271,13 +267,12 @@ h3 {
   border: none;
   width: 100%;
   padding: 37px 10px;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
   overflow: unset;
   font-family: monospace, var(--font-default);
   letter-spacing: 1px;
-  border-bottom: 1px solid #ccc;
-  border-radius: 20px;
+  border: 1px solid #ccc;
   background: #ebf1fa;
 }
 .input-area {
@@ -295,7 +290,6 @@ h3 {
   align-items: center;
   margin: auto;
   overflow: hidden;
-  padding: 10px;
   background: #fff;
   -webkit-box-shadow: 0 5px 10px 0 #00000017;
   box-shadow: 0 5px 10px 0 #00000017;
@@ -346,10 +340,9 @@ h3 {
 #fontSize::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 15px;
-  height: 15px;
+  width: 12px;
+  height: 12px;
   background: var(--primary-color);
-  border-radius: 2px;
   cursor: pointer;
   -webkit-transition: 0.1s cubic-bezier(0.075, 0.82, 0.165, 1);
   transition: 0.1s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -365,9 +358,9 @@ h3 {
 }
 .label-text {
   font-family: inherit;
-  font-variant-caps: all-small-caps;
-  font-size: 16px;
+  font-size: 12px;
   color: #111;
+  font-weight: 500;
   opacity: 0.4;
 }
 .share {
@@ -393,7 +386,6 @@ h3 {
   -ms-flex: 1;
   flex: 1;
   margin: 2px;
-  border-radius: 3px;
   padding: 5px 0;
   color: #fff;
   -webkit-transition: 0.4s;
@@ -416,7 +408,7 @@ h3 {
   background-color: #3b5998;
 }
 .share a.twitter {
-  background-color: #55acee;
+  background-color: #222;
 }
 .share a.telegram {
   background-color: #08c;
@@ -440,8 +432,6 @@ h3 {
   color: #444;
   font-size: 13px;
   padding: 0 10px;
-  border-radius: 50px;
-  font-variant-caps: all-small-caps;
   letter-spacing: 1px;
   -webkit-transition: margin-right 0.3s cubic-bezier(0.23, 1, 0.32, 1);
   -o-transition: margin-right 0.3s cubic-bezier(0.23, 1, 0.32, 1);
@@ -666,9 +656,6 @@ footer a:hover {
   }
   .sidenav {
     padding-top: 3em;
-  }
-  .site-header {
-    height: 50px;
   }
   .toggle-nav {
     margin: 5px;
