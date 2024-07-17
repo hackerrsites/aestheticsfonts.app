@@ -561,32 +561,15 @@ footer a:hover {
   -ms-user-select: none;
   user-select: none;
   margin: 2em auto;
-  background: #000;
-  border-radius: 4px;
-  color: #fff;
-  -webkit-box-shadow: 5px 5px 0 0 #00000042;
-  box-shadow: 5px 5px 0 0 #00000042;
-  padding: 15px 23px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
+  border: 2px solid blue;
+  background: transparent;
+  color: #000;
+  padding: 15px 5em;
+  letter-spacing: 1px;
   font-size: 14px;
   -webkit-transition: 0.2s cubic-bezier(0.86, 0, 0.07, 1) ease-in-out;
   -o-transition: 0.2s cubic-bezier(0.86, 0, 0.07, 1) ease-in-out;
   transition: 0.2s cubic-bezier(0.86, 0, 0.07, 1) ease-in-out;
-}
-.loadmore:hover,
-.pagebtn:hover {
-  background: var(--secondary-color);
-  -webkit-box-shadow: 5px 5px 0 0 #00000042;
-  box-shadow: 5px 5px 0 0 #00000042;
-}
-.loadmore:active,
-.pagebtn:active {
-  -webkit-transform: translate(5px, 5px);
-  -ms-transform: translate(5px, 5px);
-  transform: translate(5px, 5px);
-  -webkit-box-shadow: none;
-  box-shadow: none;
 }
 .fonts.random .font {
   -webkit-animation: recentfontanimate 0.3s ease-in-out;
